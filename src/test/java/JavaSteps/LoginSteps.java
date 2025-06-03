@@ -48,6 +48,10 @@ driver.navigate().to("https://www.saucedemo.com/");
     public void userClicksOnLogin() {
     login.ClickLogin();
         System.out.println("amendments in the code");
+
+
+        System.out.println("created change");
+        System.out.println("hgjghgg");
     }
 
     @Then("user is navigate to home page")
