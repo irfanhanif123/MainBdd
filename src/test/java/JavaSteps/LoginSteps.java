@@ -49,8 +49,9 @@ driver.navigate().to("https://www.saucedemo.com/");
     login.ClickLogin();
         System.out.println("amendments in the code");
 
-        System.out.println("created local branch for amendments");
 
+        System.out.println("created change");
+        System.out.println("hgjghgg");
     }
 
     @Then("user is navigate to home page")
