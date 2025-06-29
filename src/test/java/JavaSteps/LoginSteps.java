@@ -51,7 +51,7 @@ driver.navigate().to("https://www.saucedemo.com/");
     }
 
     @Then("user is navigate to home page")
-    public void userIsNavigateToHomePage() throws InterruptedException {
+    public voids userIsNavigateToHomePage() throws InterruptedException {
         Assert.assertTrue(login.CheckProductSign());
 Thread.sleep(2000);
 driver.close();
