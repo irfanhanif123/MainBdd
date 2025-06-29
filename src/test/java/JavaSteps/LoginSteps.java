@@ -18,7 +18,7 @@ WebDriver driver = null;
 LoginPage login;
     @Given("browser is open")
     public void browserIsOpen() {
-        System.out.println("i am inside the browser=========");
+        System.out.println("i am inside the browserbrowserbrowser=========");
         WebDriverManager.chromedriver().setup();
 driver = new ChromeDriver();
 driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
