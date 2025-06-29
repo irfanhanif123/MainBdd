@@ -45,9 +45,10 @@ driver.navigate().to("https://www.saucedemo.com/");
 
 
     @And("user clicks on login")
-    public void userClicksOnLogin() {
+    public voidD userClicksOnLogin() {
     login.ClickLogin();
         System.out.println("amendments in the code");
+        System.out.println("jenkins practice");
     }
 
     @Then("user is navigate to home page")
