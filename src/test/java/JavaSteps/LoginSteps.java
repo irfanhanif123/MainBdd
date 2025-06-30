@@ -48,7 +48,8 @@ driver.navigate().to("https://www.saucedemo.com/");
     public void userClicksOnLogin() {
     login.ClickLogin();
         System.out.println("amendments in the code");
-        System.out.println("jenkins practice");
+        System.out.println("jenkins practice pipeline");
+        
     }
 
     @Then("user is navigate to home page")
