@@ -45,14 +45,13 @@ driver.navigate().to("https://www.saucedemo.com/");
 
 
     @And("user clicks on login")
-    public voidD userClicksOnLogin() {
+    public void userClicksOnLogin() {
     login.ClickLogin();
         System.out.println("amendments in the code");
-        System.out.println("jenkins practice");
     }
 
     @Then("user is navigate to home page")
-    public void userIsNavigateToHomePage() throws InterruptedException {
+    public voidD userIsNavigateToHomePage() throws InterruptedException {
         Assert.assertTrue(login.CheckProductSign());
 Thread.sleep(2000);
 driver.close();
